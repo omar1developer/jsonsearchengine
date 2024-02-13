@@ -1,7 +1,7 @@
 import re
 
 
-class jsonsearch:
+class JSONSearchEngine:
     __limit: int = 0
 
     def __init__(self, data_json: dict):
