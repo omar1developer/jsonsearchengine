@@ -4,11 +4,16 @@ This is a Python class named JSONSearchEngine designed to facilitate searching w
 
 ## Installation
 
-To use the JSONSearchEngine class, follow these steps:
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
 
-1. Ensure you have Python installed on your system.
-2. Download the `jsonsearch.py` file containing the class.
-3. Import the class into your Python script or environment.
+```bash
+pip install JsonSearchEngine
+```
+# Example Package
+
+This is a simple example package. You can use
+[GitHub-flavored Markdown](https://github.com/omar1developer/jsonsearchengine/blob/main/tests/test.py)
+to write your content.
 
 ## Usage
 
@@ -40,3 +45,7 @@ print("Value results:", value_results)
 # Find all occurrences of a pattern
 pattern_results = search_engine.find_all(r'\b[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}\b')
 print("Pattern results:", pattern_results)
+```
+## License
+
+[MIT](https://github.com/omar1developer/jsonsearchengine/blob/main/LICENSE)
