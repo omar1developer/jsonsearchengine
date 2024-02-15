@@ -1,6 +1,5 @@
 from setuptools import setup, find_packages
-with open('requirements.txt') as pag:
-    requires = pag.read().split('\n')
+
 setup(
     name='JsonSearchEngine',
     version='1.0.0',
@@ -25,6 +24,5 @@ setup(
         'Programming Language :: Python :: 3.11',
         'Programming Language :: Python :: 3.12',
     ],
-    package_dir={'': 'src'},
-    install_requires=requires
+    package_dir={'': 'src'}
 )

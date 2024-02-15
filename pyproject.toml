@@ -8,7 +8,7 @@ name = "JsonSearchEngine"
 version = "1.0.0"
 description = "A Python class for searching within JSON data structures"
 readme = "README.md"
-requires-python = "^3"
+requires-python = ">= 3"
 license = {file = "LICENSE.txt"}
 keywords = ["json", "search"]
 authors = [
@@ -25,15 +25,17 @@ classifiers = [
   'Programming Language :: Python :: 3.6',
   'Programming Language :: Python :: 3.7',
   'Programming Language :: Python :: 3.8',
-  'Programming Language :: Python :: 3.9'
+  'Programming Language :: Python :: 3.9',
+  'Programming Language :: Python :: 3.10',
+  'Programming Language :: Python :: 3.11',
+  'Programming Language :: Python :: 3.12',
 ]
 
 
-dependencies = []
 
 
 
 
 [project.urls]
-"Homepage" = "https://github.com/omar1developer/jsonsearchengine"
+Homepage = "https://github.com/omar1developer/jsonsearchengine"
 Issues = "https://github.com/omar1developer/jsonsearchengine/blob/main/LICENSE"
