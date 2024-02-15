@@ -5,7 +5,7 @@ setup(
     version='1.0.0',
     packages=find_packages(),
     author='omar khattara',
-    author_email='omar1developer',
+    author_email='omar1developer@gmail.com',
     description='A Python class for searching within JSON data structures',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
