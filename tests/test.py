@@ -1,4 +1,5 @@
-from jsonsearch import JSONSearchEngine
+from src.jsonsearchengine.jsonsearchengine import JSONSearchEngine
+#from jsonsearch import JSONSearchEngine
 
 # Example JSON data
 data_json = {
