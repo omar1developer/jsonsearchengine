@@ -1,0 +1,2 @@
+jsonsearch==0.0.2
+setuptools==69.1.0
